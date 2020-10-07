@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2df61e9a-7d00-4caf-960b-d60c583424ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Democloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/EurekaConsumer1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/test/java/com/elim/eurekaconsumer1/EurekaConsumer1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/elim/eurekaprovider1/EurekaProvider1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider1/src/test/java/com/elim/eurekaprovider1/EurekaProvider1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/src/main/java/com/elim/eurekaprovider2/EurekaProvider2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-provider2/src/test/java/com/elim/eurekaprovider2/EurekaProvider2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/elim/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/elim/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/src/main/java/com/elim/eurekaserver2/EurekaServer2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server2/src/test/java/com/elim/eurekaserver2/EurekaServer2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/main/java/com/isoft/news/NewsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/main/java/com/isoft/news/bean/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/main/java/com/isoft/news/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/main/java/com/isoft/news/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../News/src/test/java/com/isoft/news/NewsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/bean/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/static/assets.js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/temp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-mybatis/src/test/java/com/isoft/testmybatis/TestMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/test/java/com/isoft/testmybatis/TestMybatisApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iYw0TExh6O7yoWvB7k2fqduWjv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaConsumer1Application">
+    <configuration name="EurekaConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaconsumer1.EurekaConsumer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaProvider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaprovider1.EurekaProvider1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaProvider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaprovider2.EurekaProvider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaserver2.EurekaServer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2df61e9a-7d00-4caf-960b-d60c583424ab" name="Default Changelist" comment="" />
+      <created>1602097609178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602097609178</updated>
+      <workItem from="1602097613633" duration="2290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="476" height="239" key="GridCell.Tab.0.bottom" timestamp="1602099471557">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.0.bottom/72.27.886.955@72.27.886.955" timestamp="1602099471557" />
+    <state width="476" height="239" key="GridCell.Tab.0.center" timestamp="1602099471550">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.0.center/72.27.886.955@72.27.886.955" timestamp="1602099471550" />
+    <state width="476" height="239" key="GridCell.Tab.0.left" timestamp="1602099471548">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.0.left/72.27.886.955@72.27.886.955" timestamp="1602099471548" />
+    <state width="476" height="239" key="GridCell.Tab.0.right" timestamp="1602099471550">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.0.right/72.27.886.955@72.27.886.955" timestamp="1602099471550" />
+    <state width="476" height="239" key="GridCell.Tab.1.bottom" timestamp="1602099471564">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.1.bottom/72.27.886.955@72.27.886.955" timestamp="1602099471564" />
+    <state width="476" height="239" key="GridCell.Tab.1.center" timestamp="1602099471562">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.1.center/72.27.886.955@72.27.886.955" timestamp="1602099471562" />
+    <state width="476" height="239" key="GridCell.Tab.1.left" timestamp="1602099471560">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.1.left/72.27.886.955@72.27.886.955" timestamp="1602099471560" />
+    <state width="476" height="239" key="GridCell.Tab.1.right" timestamp="1602099471564">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state width="476" height="239" key="GridCell.Tab.1.right/72.27.886.955@72.27.886.955" timestamp="1602099471564" />
+    <state x="72" y="203" width="876" height="609" key="new project wizard" timestamp="1602099364033">
+      <screen x="72" y="27" width="886" height="955" />
+    </state>
+    <state x="72" y="203" width="876" height="609" key="new project wizard/72.27.886.955@72.27.886.955" timestamp="1602099364033" />
+  </component>
+</project>
