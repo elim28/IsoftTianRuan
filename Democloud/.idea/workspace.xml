@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df61e9a-7d00-4caf-960b-d60c583424ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/config/RibbonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/controller/RibbonTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/service/RibbonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/elim/eurekaprovider1/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/elim/eurekaprovider1/controller/RibbonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider2/src/main/java/com/elim/eurekaprovider2/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-provider2/src/main/java/com/elim/eurekaprovider2/controller/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/elim/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/elim/eurekaconsumerfeign/controller/FeignTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/elim/eurekaconsumerfeign/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/elim/eurekaconsumerfeign/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/elim/eurekaconsumerfeign/service/FeignService2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../News/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../News/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../News/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
@@ -46,10 +43,13 @@
       <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/static/assets.js/jquery-3.1.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/static/user.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-mybatis/src/main/resources/temp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/EurekaConsumer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/elim/eurekaconsumer1/EurekaConsumer1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-provider1/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/main/java/com/isoft/testmybatis/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test-mybatis/src/test/java/com/isoft/testmybatis/TestMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test-mybatis/src/test/java/com/isoft/testmybatis/TestMybatisApplicationTests.java" afterDir="false" />
@@ -63,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,12 +79,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1iYw0TExh6O7yoWvB7k2fqduWjv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -94,10 +98,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-mybatis" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.elim.eurekaconsumerfeign.entity" />
       <recent name="com.elim.eurekaprovider2.bean" />
     </key>
   </component>
@@ -112,6 +118,13 @@
     <configuration name="EurekaConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-consumer1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaconsumer1.EurekaConsumer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.elim.eurekaconsumerfeign.EurekaConsumerFeignApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602097609178</updated>
       <workItem from="1602097613633" duration="2387000" />
-      <workItem from="1602122137408" duration="6506000" />
+      <workItem from="1602122137408" duration="6970000" />
+      <workItem from="1602173893968" duration="87000" />
+      <workItem from="1602208553970" duration="3004000" />
     </task>
     <servers />
   </component>
@@ -175,54 +190,91 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="301" y="266" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1602209570589">
+      <screen x="72" y="27" width="992" height="963" />
+    </state>
+    <state x="301" y="266" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/72.27.992.963@72.27.992.963" timestamp="1602209570589" />
     <state x="323" y="223" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1602128528839">
       <screen x="72" y="27" width="886" height="955" />
     </state>
     <state x="323" y="223" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.886.955@72.27.886.955" timestamp="1602128528839" />
-    <state x="175" y="257" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602127414625">
-      <screen x="72" y="27" width="886" height="955" />
+    <state x="301" y="255" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602209456104">
+      <screen x="72" y="27" width="992" height="963" />
+    </state>
+    <state x="301" y="255" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.992.963@72.27.992.963" timestamp="1602209456104" />
+    <state x="175" y="218" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602173992907">
+      <screen x="72" y="27" width="887" height="791" />
     </state>
     <state x="175" y="257" width="424" height="491" key="FileChooserDialogImpl/72.27.886.955@72.27.886.955" timestamp="1602127414625" />
-    <state width="440" height="239" key="GridCell.Tab.0.bottom" timestamp="1602129217367">
-      <screen x="72" y="27" width="886" height="955" />
+    <state x="175" y="218" key="FileChooserDialogImpl/72.27.887.791@72.27.887.791" timestamp="1602173992907" />
+    <state width="392" height="235" key="GridCell.Tab.0.bottom" timestamp="1602211298135">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.0.bottom/72.27.886.955@72.27.886.955" timestamp="1602129217367" />
-    <state width="440" height="239" key="GridCell.Tab.0.center" timestamp="1602129217365">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.0.bottom/72.27.1848.973@72.27.1848.973" timestamp="1602129957768" />
+    <state width="440" height="239" key="GridCell.Tab.0.bottom/72.27.886.955@72.27.886.955" timestamp="1602129659912" />
+    <state width="392" height="235" key="GridCell.Tab.0.bottom/72.27.886.963@72.27.886.963" timestamp="1602211298135" />
+    <state width="499" height="235" key="GridCell.Tab.0.bottom/72.27.992.963@72.27.992.963" timestamp="1602209714949" />
+    <state width="392" height="235" key="GridCell.Tab.0.center" timestamp="1602211298131">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.0.center/72.27.886.955@72.27.886.955" timestamp="1602129217365" />
-    <state width="440" height="239" key="GridCell.Tab.0.left" timestamp="1602129217364">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.0.center/72.27.1848.973@72.27.1848.973" timestamp="1602129957768" />
+    <state width="440" height="239" key="GridCell.Tab.0.center/72.27.886.955@72.27.886.955" timestamp="1602129659911" />
+    <state width="392" height="235" key="GridCell.Tab.0.center/72.27.886.963@72.27.886.963" timestamp="1602211298131" />
+    <state width="499" height="235" key="GridCell.Tab.0.center/72.27.992.963@72.27.992.963" timestamp="1602209714948" />
+    <state width="392" height="235" key="GridCell.Tab.0.left" timestamp="1602211298131">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.0.left/72.27.886.955@72.27.886.955" timestamp="1602129217364" />
-    <state width="440" height="239" key="GridCell.Tab.0.right" timestamp="1602129217367">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.0.left/72.27.1848.973@72.27.1848.973" timestamp="1602129957767" />
+    <state width="440" height="239" key="GridCell.Tab.0.left/72.27.886.955@72.27.886.955" timestamp="1602129659910" />
+    <state width="392" height="235" key="GridCell.Tab.0.left/72.27.886.963@72.27.886.963" timestamp="1602211298131" />
+    <state width="499" height="235" key="GridCell.Tab.0.left/72.27.992.963@72.27.992.963" timestamp="1602209714947" />
+    <state width="392" height="235" key="GridCell.Tab.0.right" timestamp="1602211298134">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.0.right/72.27.886.955@72.27.886.955" timestamp="1602129217367" />
-    <state width="440" height="239" key="GridCell.Tab.1.bottom" timestamp="1602129217374">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.0.right/72.27.1848.973@72.27.1848.973" timestamp="1602129957768" />
+    <state width="440" height="239" key="GridCell.Tab.0.right/72.27.886.955@72.27.886.955" timestamp="1602129659912" />
+    <state width="392" height="235" key="GridCell.Tab.0.right/72.27.886.963@72.27.886.963" timestamp="1602211298134" />
+    <state width="499" height="235" key="GridCell.Tab.0.right/72.27.992.963@72.27.992.963" timestamp="1602209714949" />
+    <state width="392" height="235" key="GridCell.Tab.1.bottom" timestamp="1602211298137">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.1.bottom/72.27.886.955@72.27.886.955" timestamp="1602129217374" />
-    <state width="440" height="239" key="GridCell.Tab.1.center" timestamp="1602129217369">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.1.bottom/72.27.1848.973@72.27.1848.973" timestamp="1602129957769" />
+    <state width="440" height="239" key="GridCell.Tab.1.bottom/72.27.886.955@72.27.886.955" timestamp="1602129659915" />
+    <state width="392" height="235" key="GridCell.Tab.1.bottom/72.27.886.963@72.27.886.963" timestamp="1602211298137" />
+    <state width="499" height="235" key="GridCell.Tab.1.bottom/72.27.992.963@72.27.992.963" timestamp="1602209714951" />
+    <state width="392" height="235" key="GridCell.Tab.1.center" timestamp="1602211298136">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.1.center/72.27.886.955@72.27.886.955" timestamp="1602129217369" />
-    <state width="440" height="239" key="GridCell.Tab.1.left" timestamp="1602129217369">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.1.center/72.27.1848.973@72.27.1848.973" timestamp="1602129957769" />
+    <state width="440" height="239" key="GridCell.Tab.1.center/72.27.886.955@72.27.886.955" timestamp="1602129659914" />
+    <state width="392" height="235" key="GridCell.Tab.1.center/72.27.886.963@72.27.886.963" timestamp="1602211298136" />
+    <state width="499" height="235" key="GridCell.Tab.1.center/72.27.992.963@72.27.992.963" timestamp="1602209714950" />
+    <state width="392" height="235" key="GridCell.Tab.1.left" timestamp="1602211298135">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.1.left/72.27.886.955@72.27.886.955" timestamp="1602129217369" />
-    <state width="440" height="239" key="GridCell.Tab.1.right" timestamp="1602129217373">
-      <screen x="72" y="27" width="886" height="955" />
+    <state width="440" height="239" key="GridCell.Tab.1.left/72.27.1848.973@72.27.1848.973" timestamp="1602129957768" />
+    <state width="440" height="239" key="GridCell.Tab.1.left/72.27.886.955@72.27.886.955" timestamp="1602129659913" />
+    <state width="392" height="235" key="GridCell.Tab.1.left/72.27.886.963@72.27.886.963" timestamp="1602211298135" />
+    <state width="499" height="235" key="GridCell.Tab.1.left/72.27.992.963@72.27.992.963" timestamp="1602209714950" />
+    <state width="392" height="235" key="GridCell.Tab.1.right" timestamp="1602211298136">
+      <screen x="72" y="27" width="886" height="963" />
     </state>
-    <state width="440" height="239" key="GridCell.Tab.1.right/72.27.886.955@72.27.886.955" timestamp="1602129217373" />
+    <state width="440" height="239" key="GridCell.Tab.1.right/72.27.1848.973@72.27.1848.973" timestamp="1602129957769" />
+    <state width="440" height="239" key="GridCell.Tab.1.right/72.27.886.955@72.27.886.955" timestamp="1602129659914" />
+    <state width="392" height="235" key="GridCell.Tab.1.right/72.27.886.963@72.27.886.963" timestamp="1602211298136" />
+    <state width="499" height="235" key="GridCell.Tab.1.right/72.27.992.963@72.27.992.963" timestamp="1602209714951" />
     <state x="-51" y="131" width="886" height="737" key="SettingsEditor" timestamp="1602127417076">
       <screen x="72" y="27" width="886" height="955" />
     </state>
     <state x="-51" y="131" width="886" height="737" key="SettingsEditor/72.27.886.955@72.27.886.955" timestamp="1602127417076" />
-    <state x="72" y="203" width="876" height="609" key="new project wizard" timestamp="1602127306402">
-      <screen x="72" y="27" width="886" height="955" />
+    <state x="72" y="204" width="876" height="609" key="new project wizard" timestamp="1602208793954">
+      <screen x="72" y="27" width="992" height="963" />
     </state>
     <state x="72" y="203" width="876" height="609" key="new project wizard/72.27.886.955@72.27.886.955" timestamp="1602127306402" />
+    <state x="72" y="204" key="new project wizard/72.27.992.963@72.27.992.963" timestamp="1602208793954" />
   </component>
 </project>

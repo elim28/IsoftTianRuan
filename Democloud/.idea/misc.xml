@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/eureka-provider1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>
